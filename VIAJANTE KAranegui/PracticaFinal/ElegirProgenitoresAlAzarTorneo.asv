@@ -1,0 +1,9 @@
+function progenitoresAlAzar= ElegirIndividuosAlAzarTorneo(listaCromosomas)
+    sizeListaCromosomas= size(listaCromosomas);
+    numeroIndividuosAlAzar=100;
+    progenitoresAlAzar=zeros(numeroIndividuosAlAzar,sizeListaCromosomas(2))
+    for i= 1:numeroInviduosAlAzar
+        posicionRuta= randi([1 sizeListaCromosomas(1)]);
+        progenitoresAlAzar(i,:)= listaCromosomas(
+    end
+end

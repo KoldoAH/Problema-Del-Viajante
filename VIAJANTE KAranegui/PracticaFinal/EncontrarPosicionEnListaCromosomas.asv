@@ -1,0 +1,8 @@
+function posicionEnListaCromosomas= EncontrarPosicionEnListaCromosomas(listaCromosomas,cromosomaMaximoFitness,sizeListaCromosomas)
+  
+  posicionCromosoma= 1;
+  haEncontradoCromosoma=False;
+  while (posicionCromosoma<=sizeListaCromosomas(1)) && haEncontradoCromosoma==False
+      if 
+  end
+end

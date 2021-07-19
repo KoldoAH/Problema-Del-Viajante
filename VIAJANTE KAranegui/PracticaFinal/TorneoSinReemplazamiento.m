@@ -1,0 +1,4 @@
+function progenitores=TorneoSinReemplazamiento(matrizDistanciaCiudades,numeroProgenitores,listaCromosomas,funcionAjuste,numeroIndividuosAlAzar)
+    individuosAlAzar= ElegirIndividuosAlAzarTorneo(listaCromosomas,numeroIndividuosAlAzar);
+    progenitores=ElegirProgenitoresSinReemplazamiento(individuosAlAzar,numeroProgenitores,matrizDistanciaCiudades,funcionAjuste);
+end
